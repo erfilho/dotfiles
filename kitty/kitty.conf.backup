@@ -1,0 +1,103 @@
+# ────────────
+#  SHELL
+# ────────────
+# Usa o Zsh como shell padrão no Kitty
+shell zsh
+
+# ────────────
+#  FONTE
+# ────────────
+font_family      FiraCode Nerd Font
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+font_size        12.5
+
+# ────────────
+#  VISUAL
+# ────────────
+# Opacidade e padding
+background_opacity 0.95
+window_padding_width 4
+hide_window_decorations no
+
+# ────────────
+#  SCROLLBACK
+# ────────────
+scrollback_lines 10000
+enable_audio_bell no
+confirm_os_window_close 0
+
+# ────────────
+#  TAB BAR
+# ────────────
+tab_bar_edge top
+tab_bar_style powerline
+tab_powerline_style angled
+
+# ────────────
+#  ATALHOS
+# ────────────
+map ctrl+shift+enter launch --cwd=current
+map ctrl+shift+n new_os_window
+map ctrl+shift+t new_tab
+map ctrl+shift+w close_tab
+map ctrl+tab next_tab
+map ctrl+shift+tab previous_tab
+
+# Copiar / colar
+map ctrl+shift+c copy_to_clipboard
+map ctrl+shift+v paste_from_clipboard
+
+# Zoom
+map ctrl+plus change_font_size all +1.0
+map ctrl+minus change_font_size all -1.0
+map ctrl+0 change_font_size all 0
+
+# ────────────
+#  LIGADURAS
+# ────────────
+enable_ligatures yes
+
+# ────────────
+#  URLS
+# ────────────
+open_url_modifiers ctrl
+
+# ────────────
+#  TEMA (Nord)
+# ────────────
+foreground #D8DEE9
+background #2E3440
+selection_background #4C566A
+selection_foreground #D8DEE9
+url_color #88C0D0
+cursor #D8DEE9
+active_border_color #81A1C1
+inactive_border_color #3B4252
+bell_border_color #BF616A
+
+color0 #3B4252
+color1 #BF616A
+color2 #A3BE8C
+color3 #EBCB8B
+color4 #81A1C1
+color5 #B48EAD
+color6 #88C0D0
+color7 #E5E9F0
+color8 #4C566A
+color9 #BF616A
+color10 #A3BE8C
+color11 #EBCB8B
+color12 #81A1C1
+color13 #B48EAD
+color14 #8FBCBB
+color15 #ECEFF4
+
+# ────── CURSOR CONFIG ──────
+cursor_shape beam
+cursor_beam_thickness 1.6
+cursor_underline_thickness 2.0
+cursor_blink_interval 0.6
+cursor_stop_blinking_after 0
+cursor_trail 0.5
